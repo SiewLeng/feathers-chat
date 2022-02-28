@@ -63,4 +63,4 @@ app.service('users').find({
   console.log(result);
 });
 
-export default app;
+export default app
