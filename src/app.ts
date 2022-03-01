@@ -63,4 +63,32 @@ app.service('users').find({
   console.log(result);
 });
 
+/*
+app.service('users').create({
+  id: '09f8348a-b2fb-477f-bd6e-a634dfb33b62',
+  email: 'siewleng.lim@gmail.com',
+  password: '123456',
+  dateOfBirth: new Date('12/04/9170'),
+  hobbies: ['running', 'watching kdrama']
+});
+*/
+
+/*
+app.service('users').create({
+  id: 'e4c46a7a-19cf-40ad-a97d-a8ded41c4ae6',
+  email: 'sherry.ong@gmail.com',
+  password: '123456',
+  dateOfBirth: new Date('12/04/1988'),
+  hobbies: ['dining korean food']
+});
+*/
+
+/*
+app.service('messages').create({
+  id: '7a429ee7-2624-41b5-9fde-9ae95f1c841e',
+  userId: '09f8348a-b2fb-477f-bd6e-a634dfb33b62',
+  text: 'Where are you?'
+});
+*/
+
 export default app
