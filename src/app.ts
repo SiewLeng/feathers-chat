@@ -56,12 +56,13 @@ app.use(express.errorHandler({ logger } as any));
 
 app.hooks(appHooks);
 
-
+/*
 app.service('users').find({
   query: { email: 'strawberry@gmail.com'}
 }).then((result) => {
   console.log(result);
 });
+*/
 
 /*
 app.service('users').create({
@@ -88,6 +89,20 @@ app.service('messages').create({
   id: '7a429ee7-2624-41b5-9fde-9ae95f1c841e',
   userId: '09f8348a-b2fb-477f-bd6e-a634dfb33b62',
   text: 'Where are you?'
+});
+*/
+
+/*
+app.service('messages').find().then((results: any) => {
+  console.log(results);
+}).catch((err: any) => {
+  console.log(err);
+});
+*/
+
+/*
+app.service('messages').on('created', (message: any) => {
+  console.log(message);
 });
 */
 
