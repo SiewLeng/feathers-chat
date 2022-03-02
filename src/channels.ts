@@ -48,7 +48,8 @@ export default function(app: Application): void {
     console.log('Publishing all events to all authenticated users. See `channels.ts` and https://docs.feathersjs.com/api/channels.html for more information.'); // eslint-disable-line
 
     // e.g. to publish all service events to all authenticated users use
-    return app.channel('authenticated');
+    // return app.channel('authenticated');
+    return app.channel('anonymous');
   });
 
   // Here you can also add service specific event publishers
